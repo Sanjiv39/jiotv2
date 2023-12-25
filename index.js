@@ -44,7 +44,7 @@ app.get("/admin.html", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "login.html"));
 });
 
-app.use(cors());
+// app.use(cors());
 
 import loginRoute from "./routes/login.mjs";
 import ipRoute from "./routes/ip.mjs";
